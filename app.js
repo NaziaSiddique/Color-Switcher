@@ -1,8 +1,8 @@
 const body = document.body;
-const switchBtn = document.querySelector('.switch');
-const switchPara = document.querySelector('.color');
+const switchBtn = document.querySelector(".switch");
+const switchPara = document.querySelector("p");
 
-switchBtn.addEventListener('click', function () {
+switchBtn.addEventListener("click", function () {
   let color1 = getRandomNum(); //red color
   let color2 = getRandomNum(); //green color
   let color3 = getRandomNum(); //blue color
